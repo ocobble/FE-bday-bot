@@ -1,6 +1,10 @@
 module.exports = {
-  consumer_key: 'jvKPzS3P3MznvfhbL7NBWd63Z',  
-  consumer_secret: 'NxRe21IFZyrmjPbi3toFwiwHHDJYhgqtZih8TUSLmDPfM42i2N',
-  access_token: '824067883764424705-zBt7xqpAaay97iDQdmRjIledVUcPWat',  
-  access_token_secret: 'rfrLPfr1LC3Gu7Mk3BRRKF18RVpIwxtPF9CTWgQ813MA3'
+  consumer_key: 'Q9ZmH4kRNzFdGdo2E4bXxaesx',  
+  consumer_secret: 'ckUANXggoPjZFWaaRWLnGLLSFNjOWmTtPLV6z1AB03927LAPxg',
+  access_token: '1279511100225191936-64VXyuVlXNciPnKguc9uRRa8bGQhFy',  
+  access_token_secret: '938SDoWLGK0tco9ycce0cPoo7GqMjgXmvBng2ojZyRKaM'
 }
+
+// API Key: Ptr8Q5X8lTDoMesW8NR3UIuUl
+// API key secret: QCSqMkzIB4dOo1ZB1e2N60t2gDXYnFQtJVsfs3ziLBCxNxm6iU
+// Bearer token: AAAAAAAAAAAAAAAAAAAAABbOFgEAAAAA2c9hzJH6MGGK8J1FeDHx7j%2FYqKY%3DnWZcvdDVDE84aYr8D4GxChPKZ59bGbXBZVvw4W7tAEG8Z1StMj
