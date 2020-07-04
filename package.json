@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ocobble/FE-bday-bot/issues"
   },
-  "homepage": "https://github.com/ocobble/FE-bday-bot#readme"
+  "homepage": "https://github.com/ocobble/FE-bday-bot#readme",
+  "dependencies": {
+    "twit": "^2.2.11"
+  }
 }
