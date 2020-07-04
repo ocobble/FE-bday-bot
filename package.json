@@ -1,0 +1,19 @@
+{
+  "name": "fe-bday-bot",
+  "version": "1.0.0",
+  "description": "wut",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocobble/FE-bday-bot.git"
+  },
+  "author": "Olivia Cobble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ocobble/FE-bday-bot/issues"
+  },
+  "homepage": "https://github.com/ocobble/FE-bday-bot#readme"
+}
