@@ -2,11 +2,48 @@
     "Characters": [
         {
             "Name": "Marianne Von Edmund",
-            "Birthday": "7-5"
+            "Birthday": "2000-11-23",
+            "Picture": "Marianne.jpg"
+        },
+        {
+            "Name": "Lysithea von Ordelia",
+            "Birthday": "2000-2-28",
+            "Picture": "Lysithea.jpg"
+        },
+        {
+            "Name": "Claude Von Riegan",
+            "Birthday": "2000-7-24",
+            "Picture": "Claude.jpg"
+        },
+        {
+            "Name": "Hilda Valentine Goneril",
+            "Birthday": "2000-2-3",
+            "Picture": "Hilda.jpg"
+        },
+        {
+            "Name": "Ignatz Victor",
+            "Birthday": "2000-3-14",
+            "Picture": "Ignatz.jpg"
+        },
+        {
+            "Name": "Leonie Pinelli",
+            "Birthday": "2000-8-21",
+            "Picture": "Leonie.jpg"
+        },
+        {
+            "Name": "Lorenz Hellman Gloucester",
+            "Birthday": "2000-6-13",
+            "Picture": "Lorenz.jpg"
+        },
+        {
+            "Name": "Raphael Kirsten",
+            "Birthday": "2000-5-18",
+            "Picture": "Raphael.jpg"
         },
         {
             "Name": "Caspar Von Bergliez",
-            "Birthday": "7-3"
+            "Birthday": "2000-7-3",
+            "Picture": "Caspar.jpg"
         }
     ]
 }
