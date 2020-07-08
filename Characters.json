@@ -3,12 +3,12 @@
         {
             "Name": "Marianne Von Edmund",
             "Birthday": "2000-11-23",
-            "Picture": "Marianne.png"
+            "Picture": "Marianne.jpg"
         },
         {
             "Name": "Lysithea von Ordelia",
             "Birthday": "2000-2-28",
-            "Picture": "Lysithea.png"
+            "Picture": "Lysithea.jpg"
         },
         {
             "Name": "Claude Von Riegan",
@@ -23,12 +23,12 @@
         {
             "Name": "Ignatz Victor",
             "Birthday": "2000-3-14",
-            "Picture": "Ignatz.png"
+            "Picture": "Ignatz.jpg"
         },
         {
             "Name": "Leonie Pinelli",
             "Birthday": "2000-8-21",
-            "Picture": "Leonie.png"
+            "Picture": "Leonie.jpg"
         },
         {
             "Name": "Lorenz Hellman Gloucester",
@@ -38,12 +38,12 @@
         {
             "Name": "Raphael Kirsten",
             "Birthday": "2000-5-18",
-            "Picture": "Raphael.png"
+            "Picture": "Raphael.jpg"
         },
         {
             "Name": "Bernadetta von Varley",
             "Birthday": "2000-12-12",
-            "Picture": "Bernadetta.png"
+            "Picture": "Bernadetta.jpg"
         },
         {
             "Name": "Dorothea Arnault",
@@ -63,7 +63,7 @@
         {
             "Name": "Hubert von Vestra",
             "Birthday": "2000-4-17",
-            "Picture": "Hubert.png"
+            "Picture": "Hubert.jpg"
         },
         {
             "Name": "Petra Macneary",
@@ -73,7 +73,7 @@
         {
             "Name": "Annette Fantine Dominic",
             "Birthday": "2000-5-9",
-            "Picture": "Annette.png"
+            "Picture": "Annette.jpg"
         },
         {
             "Name": "Ashe Ubert",
@@ -83,7 +83,7 @@
         {
             "Name": "Dedue Molinaro",
             "Birthday": "2000-8-31",
-            "Picture": "Dedue.png"
+            "Picture": "Dedue.jpg"
         },
         {
             "Name": "Dimitri Alexandre Blaiddyd",
@@ -93,7 +93,7 @@
         {
             "Name": "Felix Hugo Fraldarius",
             "Birthday": "2000-2-20",
-            "Picture": "Felix.png"
+            "Picture": "Felix.jpg"
         },
         {
             "Name": "Ingrid Brandl Galatea",
@@ -103,67 +103,67 @@
         {
             "Name": "Mercedes von Martritz",
             "Birthday": "2000-5-27",
-            "Picture": "Mercedes.png"
+            "Picture": "Mercedes.jpg"
         },
         {
             "Name": "Sylvain Jose Gautier",
             "Birthday": "2000-6-5",
-            "Picture": "Sylvain.png"
+            "Picture": "Sylvain.jpg"
         },
         {
             "Name": "Alois Rangeld",
             "Birthday": "2000-12-1",
-            "Picture": "Alois.png"
+            "Picture": "Alois.jpg"
         },
         {
             "Name": "Anna",
             "Birthday": "2000-6-11",
-            "Picture": "Anna.png"
+            "Picture": "Anna.jpg"
         },
         {
             "Name": "Catherine",
             "Birthday": "2000-9-15",
-            "Picture": "Catherine.png"
+            "Picture": "Catherine.jpg"
         },
         {
             "Name": "Cyril",
             "Birthday": "2000-10-25",
-            "Picture": "Cyril.png"
+            "Picture": "Cyril.jpg"
         },
         {
             "Name": "Flayn",
             "Birthday": "2000-7-12",
-            "Picture": "Flayn.png"
+            "Picture": "Flayn.jpg"
         },
         {
             "Name": "Gilbert Pronislav",
             "Birthday": "2000-1-26",
-            "Picture": "Gilbert.png"
+            "Picture": "Gilbert.jpg"
         },
         {
             "Name": "Hanneman von Essar",
             "Birthday": "2000-2-8",
-            "Picture": "Hanneman.png"
+            "Picture": "Hanneman.jpg"
         },
         {
             "Name": "Jeritza von Hrym",
             "Birthday": "2000-3-4",
-            "Picture": "Jeritza.png"
+            "Picture": "Jeritza.jpg"
         },
         {
             "Name": "Manuela Casagranda",
             "Birthday": "2000-8-3",
-            "Picture": "Manuela.png"
+            "Picture": "Manuela.jpg"
         },
         {
             "Name": "Seteth",
             "Birthday": "2000-12-27",
-            "Picture": "Seteth.png"
+            "Picture": "Seteth.jpg"
         },
         {
             "Name": "Shamir Nevrand",
             "Birthday": "2000-3-27",
-            "Picture": "Shamir.png"
+            "Picture": "Shamir.jpg"
         },
         {
             "Name": "Balthus von Albrecht",
@@ -173,32 +173,32 @@
         {
             "Name": "Constance von Nuvelle",
             "Birthday": "2000-3-20",
-            "Picture": "Constance.png"
+            "Picture": "Constance.jpg"
         },
         {
             "Name": "Hapi",
             "Birthday": "2000-1-15",
-            "Picture": "Hapi.png"
+            "Picture": "Hapi.jpg"
         },
         {
             "Name": "Yuri Leclerc",
             "Birthday": "2000-8-12",
-            "Picture": "Yuri.png"
+            "Picture": "Yuri.jpg"
         },
         {
             "Name": "Rhea",
             "Birthday": "2000-1-11",
-            "Picture": "Rhea.png"
+            "Picture": "Rhea.jpg"
         },
         {
             "Name": "Caspar Von Bergliez",
             "Birthday": "2000-7-3",
-            "Picture": "Caspar.png"
+            "Picture": "Caspar.jpg"
         },
         {
             "Name": "Linhardt von Hevring",
             "Birthday": "2000-11-7",
-            "Picture": "Linhardt.png"
+            "Picture": "Linhardt.jpg"
         }
     ]
 }
