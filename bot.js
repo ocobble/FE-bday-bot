@@ -4,13 +4,7 @@ var fs = require("fs");
 
 var Twitter = new twit(config);
 
-var retweet = function() {
-    var params = {
-        q: '#nodejs, #Nodejs',  // REQUIRED
-        lang: 'en'
-}
-}
-
+async function tweetBirthdays() {
 var text = fs.readFileSync("./Characters.json", "utf-8");
 var jsonText = JSON.parse(text);
 
@@ -25,7 +19,19 @@ for (var i = 0; i < jsonText.Characters.length; ++i) {
         // If it is, tweet happy birthday
         console.log("Attempting to tweet");
         var index = i;
-        var imagePath = './images/' + jsonText.Characters[index].Picture;
+        
+        // Tweet
+        await tweet(jsonText.Characters[i].Name, jsonText.Characters[i].Picture);
+        counter = counter + 1;
+    }
+}
+if (counter == 0) {
+    console.log("No birthdays today.");
+}
+}
+
+function tweet(name, pictureString) {
+    var imagePath = './images/' + pictureString;
         var pic = fs.readFileSync(imagePath, { encoding: 'base64' })
  
         // first we must post the media to Twitter
@@ -33,26 +39,21 @@ for (var i = 0; i < jsonText.Characters.length; ++i) {
         // now we can assign alt text to the media, for use by screen readers and
         // other text-based presentations and interpreters
         var mediaIdStr = data.media_id_string
-        console.log(i);
-        var altText = "A lovely picture of " + jsonText.Characters[index].Name;
-        var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } }
+        var altText = "A lovely picture of " + name;
+        var meta_params = { media_id: mediaIdStr, alt_text: { text: altText } };
  
         Twitter.post('media/metadata/create', meta_params, function (err, data, response) {
             if (!err) {
                 // now we can reference the media and post a tweet (media will attach to the tweet)
-                var params = { status: "Happy birthday " + jsonText.Characters[index].Name + "!", media_ids: [mediaIdStr] }
+                var params = { status: "Happy birthday " + name + "!", media_ids: [mediaIdStr] }
  
                 Twitter.post('statuses/update', params, function (err, data, response) {
-                console.log(data)
-            })
-        }
+                    console.log(data)
+                })
+            }
+        })
     })
-    })
-        counter = counter + 1;
-    }
 }
-
-if (counter == 0) {
-    console.log("No birthdays today.");
-}
-
+        
+// Function call
+tweetBirthdays();
