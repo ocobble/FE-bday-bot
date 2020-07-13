@@ -8,7 +8,7 @@ async function tweetBirthdays() {
 var text = fs.readFileSync("./Characters.json", "utf-8");
 var jsonText = JSON.parse(text);
 
-var todayDate = new Date(); //TODO: This is wrong
+var todayDate = new Date();
 var counter = 0;
 
 for (var i = 0; i < jsonText.Characters.length; ++i) {
