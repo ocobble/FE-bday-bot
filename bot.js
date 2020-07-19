@@ -60,5 +60,6 @@ function tweet(name, pictureString) {
     })
 }
         
+exports.tweetBirthdays = tweetBirthdays;
 // Function call
 tweetBirthdays();
