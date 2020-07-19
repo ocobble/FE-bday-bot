@@ -1,5 +1,10 @@
 var twit = require('twit');
-var config = require('./config.js');
+var config = {
+    consumer_secret: process.env.CONSUMER_SECRET,
+    consumer_key: process.env.CONSUMER_KEY,
+    access_token: process.env.ACCESS_TOKEN,
+    access_token_secret: process.env.ACCESS_TOKEN_SECRET
+}
 var fs = require("fs");
 
 var Twitter = new twit(config);
