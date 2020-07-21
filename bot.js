@@ -36,7 +36,7 @@ if (counter == 0) {
 }
 
 function tweet(name, pictureString) {
-    var imagePath = './images/' + pictureString;
+    var imagePath = './Images/' + pictureString;
         var pic = fs.readFileSync(imagePath, { encoding: 'base64' })
  
         // first we must post the media to Twitter
