@@ -13,6 +13,6 @@ function monthSearch(month) {
         }
     }
 }
-
-monthSearch(7);
-//exports.monthSearch = monthSearch;
+today = new Date();
+todayMonth = today.getMonth();
+monthSearch(todayMonth);
