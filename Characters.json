@@ -779,6 +779,21 @@
             "Name": "Xander",
             "Birthday": "2000-10-27",
             "Picture": "Xander.jpg"
+        },
+        {
+            "Name": "Clanne",
+            "Birthday": "2000-3-10",
+            "Picture": "Clanne.jpg"
+        },
+        {
+            "Name": "Framme",
+            "Birthday": "2000-3-10",
+            "Picture": "Framme.jpg"
+        },
+        {
+            "Name": "Jean",
+            "Birthday": "2000-3-31",
+            "Picture": "Jean.jpg"
         }
     ]
 }
