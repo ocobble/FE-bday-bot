@@ -794,6 +794,36 @@
             "Name": "Jean",
             "Birthday": "2000-3-31",
             "Picture": "Jean.jpg"
+        },
+        {
+            "Name": "Diamant",
+            "Birthday": "2000-4-6",
+            "Picture": "Diamant.jpg"
+        },
+        {
+            "Name": "Seadall",
+            "Birthday": "2000-4-21",
+            "Picture": "Seadall.jpg"
+        },
+        {
+            "Name": "Chloé",
+            "Birthday": "2000-4-27",
+            "Picture": "Chloe.jpg"
+        },
+        {
+            "Name": "Boucheron",
+            "Birthday": "2000-5-11",
+            "Picture": "Boucheron.jpg"
+        },
+        {
+            "Name": "Lapis",
+            "Birthday": "2000-5-25",
+            "Picture": "Lapis.jpg"
+        },
+        {
+            "Name": "Bunet",
+            "Birthday": "2000-5-30",
+            "Picture": "Bunet.jpg"
         }
     ]
 }
