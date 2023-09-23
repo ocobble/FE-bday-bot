@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/ocobble/FE-bday-bot#readme",
   "dependencies": {
+    "director": "^1.2.8",
     "twit": "^2.2.11",
-    "director": "^1.2.8"
+    "twitter-api-v2": "^1.15.1",
+    "twitter-v2": "^1.1.0"
   }
 }
