@@ -41,6 +41,7 @@ const postTweet = async (name, pictureString) => {
 };
 
 async function tweetBirthdays() {
+    console.log("Checking for birthdays");
     var text = fs.readFileSync("./Characters.json", "utf-8");
     var jsonText = JSON.parse(text);
 
@@ -54,7 +55,6 @@ async function tweetBirthdays() {
         if (todayDate.getDate() === characterBD.getDate() && todayDate.getMonth() === characterBD.getMonth()) {
             // If it is, tweet happy birthday
             console.log("Attempting to tweet");
-            var index = i;
             
             // Tweet
             await postTweet(jsonText.Characters[i].Name, jsonText.Characters[i].Picture);
@@ -64,8 +64,6 @@ async function tweetBirthdays() {
     if (counter == 0) {
         console.log("No birthdays today.");
     }
-    const { data } = await client.get('tweets', { ids: '1228393702244134912' });
-    console.log(data);
 }
 
 // function tweet(name, pictureString) {
